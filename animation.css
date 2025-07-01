@@ -1,0 +1,21 @@
+ div {
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    animation-name: movebox;
+    animation-duration: 3s;
+    position: relative;
+    border-radius: 50%;
+    animation-iteration-count: 2;
+ }
+
+@keyframes movebox {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: blue; left: 200px; top: 0px;}
+    50% {background-color: cadetblue; left: 200px; top: 200px;}
+    75% {background-color: blueviolet; left: 0px; top: 200px;}
+    100% {background-color: rgb(201, 0, 194); left: 0px; top: 0px;}
+
+}
+
+}
